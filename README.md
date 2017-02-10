@@ -14,7 +14,7 @@ MRuby::Build.new do |conf|
 end
 ```
 
-or add this line to you aplication's mrbgem.rake
+or add this line to your aplication's mrbgem.rake
 
 ```ruby
 MRuby::Gem::Specification.new('your-mrbgem') do |spec|
